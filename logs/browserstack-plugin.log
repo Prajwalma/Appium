@@ -1,0 +1,61 @@
+12:24:33.648 [ApplicationImpl pooled thread 29] INFO  c.b.l.BrowserStackRunExtension - testng
+12:24:33.648 [ApplicationImpl pooled thread 29] INFO  com.browserstack.utils.Helpers - null
+12:24:33.649 [ApplicationImpl pooled thread 29] INFO  c.b.l.BrowserStackRunExtension - Agent path: null
+12:26:16.886 [ApplicationImpl pooled thread 20] INFO  c.b.l.BrowserStackRunExtension - testng
+12:26:16.886 [ApplicationImpl pooled thread 20] INFO  com.browserstack.utils.Helpers - null
+12:26:16.888 [ApplicationImpl pooled thread 20] INFO  c.b.l.BrowserStackRunExtension - Agent path: null
+12:28:12.174 [ApplicationImpl pooled thread 33] INFO  c.b.l.BrowserStackRunExtension - testng
+12:28:12.174 [ApplicationImpl pooled thread 33] INFO  com.browserstack.utils.Helpers - null
+12:28:12.174 [ApplicationImpl pooled thread 33] INFO  c.b.l.BrowserStackRunExtension - Agent path: null
+12:30:22.199 [ApplicationImpl pooled thread 35] INFO  c.b.l.BrowserStackRunExtension - testng
+12:30:22.199 [ApplicationImpl pooled thread 35] INFO  com.browserstack.utils.Helpers - null
+12:30:22.201 [ApplicationImpl pooled thread 35] INFO  c.b.l.BrowserStackRunExtension - Agent path: null
+12:41:54.307 [ApplicationImpl pooled thread 61] INFO  c.b.l.BrowserStackRunExtension - testng
+12:41:54.307 [ApplicationImpl pooled thread 61] INFO  com.browserstack.utils.Helpers - null
+12:41:54.308 [ApplicationImpl pooled thread 61] INFO  c.b.l.BrowserStackRunExtension - Agent path: null
+12:45:58.394 [ApplicationImpl pooled thread 63] INFO  c.b.l.BrowserStackRunExtension - testng
+12:45:58.395 [ApplicationImpl pooled thread 63] INFO  com.browserstack.utils.Helpers - null
+12:45:58.395 [ApplicationImpl pooled thread 63] INFO  c.b.l.BrowserStackRunExtension - Agent path: null
+12:47:23.019 [ApplicationImpl pooled thread 77] INFO  c.b.l.BrowserStackRunExtension - testng
+12:47:23.020 [ApplicationImpl pooled thread 77] INFO  com.browserstack.utils.Helpers - null
+12:47:23.020 [ApplicationImpl pooled thread 77] INFO  c.b.l.BrowserStackRunExtension - Agent path: null
+12:53:16.050 [ApplicationImpl pooled thread 86] INFO  c.b.l.BrowserStackRunExtension - testng
+12:53:16.050 [ApplicationImpl pooled thread 86] INFO  com.browserstack.utils.Helpers - null
+12:53:16.050 [ApplicationImpl pooled thread 86] INFO  c.b.l.BrowserStackRunExtension - Agent path: null
+12:54:34.037 [ApplicationImpl pooled thread 84] INFO  c.b.l.BrowserStackRunExtension - testng
+12:54:34.037 [ApplicationImpl pooled thread 84] INFO  com.browserstack.utils.Helpers - null
+12:54:34.038 [ApplicationImpl pooled thread 84] INFO  c.b.l.BrowserStackRunExtension - Agent path: null
+13:02:01.865 [ApplicationImpl pooled thread 91] INFO  c.b.l.BrowserStackRunExtension - testng
+13:02:01.865 [ApplicationImpl pooled thread 91] INFO  com.browserstack.utils.Helpers - null
+13:02:01.866 [ApplicationImpl pooled thread 91] INFO  c.b.l.BrowserStackRunExtension - Agent path: null
+13:04:40.920 [ApplicationImpl pooled thread 89] INFO  c.b.l.BrowserStackRunExtension - testng
+13:04:40.920 [ApplicationImpl pooled thread 89] INFO  com.browserstack.utils.Helpers - null
+13:04:40.922 [ApplicationImpl pooled thread 89] INFO  c.b.l.BrowserStackRunExtension - Agent path: null
+13:08:40.854 [ApplicationImpl pooled thread 109] INFO  c.b.l.BrowserStackRunExtension - testng
+13:08:40.855 [ApplicationImpl pooled thread 109] INFO  com.browserstack.utils.Helpers - null
+13:08:40.855 [ApplicationImpl pooled thread 109] INFO  c.b.l.BrowserStackRunExtension - Agent path: null
+13:19:46.810 [ApplicationImpl pooled thread 133] INFO  c.b.l.BrowserStackRunExtension - testng
+13:19:46.811 [ApplicationImpl pooled thread 133] INFO  com.browserstack.utils.Helpers - null
+13:19:46.811 [ApplicationImpl pooled thread 133] INFO  c.b.l.BrowserStackRunExtension - Agent path: null
+14:22:42.485 [ApplicationImpl pooled thread 227] INFO  c.b.l.BrowserStackRunExtension - testng
+14:22:42.485 [ApplicationImpl pooled thread 227] INFO  com.browserstack.utils.Helpers - null
+14:22:42.486 [ApplicationImpl pooled thread 227] INFO  c.b.l.BrowserStackRunExtension - Agent path: null
+14:27:36.050 [AWT-EventQueue-0] INFO  c.b.actions.EnableBrowserStack - Setting enable browserstack run update
+14:27:36.054 [AWT-EventQueue-0] INFO  c.b.actions.DisableBrowserStack - Setting disable browserstack run update
+14:29:57.400 [AWT-EventQueue-0] INFO  c.b.launchers.LaunchMavenCommand - Integrate source: java:appium-intellij:v1.1.6
+14:29:57.401 [AWT-EventQueue-0] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+14:29:57.464 [ApplicationImpl pooled thread 224] INFO  c.b.l.BrowserStackRunExtension - maven
+14:29:57.464 [ApplicationImpl pooled thread 224] INFO  com.browserstack.utils.Helpers - null
+14:30:30.476 [java.exe] INFO  c.b.launchers.LaunchMavenCommand - Completed maven archetype command
+14:35:29.038 [ApplicationImpl pooled thread 230] INFO  c.b.l.BrowserStackRunExtension - testng
+14:35:29.038 [ApplicationImpl pooled thread 230] INFO  com.browserstack.utils.Helpers - true
+14:35:29.038 [ApplicationImpl pooled thread 230] INFO  com.browserstack.utils.Helpers - C:/Users/Prajwal M A/.m2/repository/com/browserstack/browserstack-java-sdk/1.23.4/browserstack-java-sdk-1.23.4.jar
+14:35:29.038 [ApplicationImpl pooled thread 230] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/Prajwal M A/.m2/repository/com/browserstack/browserstack-java-sdk/1.23.4/browserstack-java-sdk-1.23.4.jar
+14:35:29.039 [ApplicationImpl pooled thread 230] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+14:35:29.039 [ApplicationImpl pooled thread 230] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+14:38:15.205 [ApplicationImpl pooled thread 230] INFO  c.b.l.BrowserStackRunExtension - testng
+14:38:15.205 [ApplicationImpl pooled thread 230] INFO  com.browserstack.utils.Helpers - true
+14:38:15.205 [ApplicationImpl pooled thread 230] INFO  com.browserstack.utils.Helpers - C:/Users/Prajwal M A/.m2/repository/com/browserstack/browserstack-java-sdk/1.23.4/browserstack-java-sdk-1.23.4.jar
+14:38:15.205 [ApplicationImpl pooled thread 230] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/Prajwal M A/.m2/repository/com/browserstack/browserstack-java-sdk/1.23.4/browserstack-java-sdk-1.23.4.jar
+14:38:15.205 [ApplicationImpl pooled thread 230] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+14:38:15.206 [ApplicationImpl pooled thread 230] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
