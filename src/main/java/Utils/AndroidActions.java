@@ -2,13 +2,19 @@ package Utils;
 
 import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 
+import java.time.Duration;
+
 public class AndroidActions extends Appiumutils{
     AndroidDriver driver;
+    TouchAction action;
 
 
     public AndroidActions(AndroidDriver driver){
@@ -17,11 +23,14 @@ public class AndroidActions extends Appiumutils{
     }
 
 
-    public void longpress(WebElement ele)
+    public void longpress(PointOption point)
     {
-        ((JavascriptExecutor) driver).executeScript("mobile: longClickGesture", ImmutableMap.of(
-                "elementId", ((RemoteWebElement) ele).getId(),
-                "duration",2000));
+        action = new TouchAction(driver);
+// Perform long press
+        action.press(point)
+                .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(2))) // Adjust duration as needed
+                .release()
+                .perform();
     }
     public void scrollToEndAction()
     {
