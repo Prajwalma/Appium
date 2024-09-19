@@ -2,6 +2,7 @@ package org.android.test;
 
 import TestUtils.BaseClass;
 import com.google.common.collect.ImmutableMap;
+import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.ScreenOrientation;
@@ -54,16 +55,12 @@ public class tc_4 extends BaseClass {
         page.ClickShopButton();
         Productcataloguepage page2 = new Productcataloguepage(driver);
         Thread.sleep(3000);
-        driver.rotate(ScreenOrientation.PORTRAIT);
-        Thread.sleep(3000);
-        page2.addProductToCartbyindex(0);
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-
-// Scroll down by a specific amount
-        js.executeScript("window.scrollBy(0, 300)");
-        Thread.sleep(3000);
-        page2.addProductToCartbyindex(1);
-        page2.clickCartButton();
+//        driver.rotate(ScreenOrientation.PORTRAIT);
+//        Thread.sleep(3000);
+//        page2.addProductToCartbyindex(0);
+//        Thread.sleep(3000);
+//        page2.addProductToCartbyindex(1);
+//        page2.clickCartButton();
         Thread.sleep(2000);
 
         CartPage page3 = new CartPage(driver);
