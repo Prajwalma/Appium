@@ -57,6 +57,10 @@ public class tc_4 extends BaseClass {
         driver.rotate(ScreenOrientation.PORTRAIT);
         Thread.sleep(3000);
         page2.addProductToCartbyindex(0);
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+
+// Scroll down by a specific amount
+        js.executeScript("window.scrollBy(0, 300)");
         Thread.sleep(3000);
         page2.addProductToCartbyindex(1);
         page2.clickCartButton();
