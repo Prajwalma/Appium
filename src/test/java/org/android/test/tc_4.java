@@ -55,7 +55,7 @@ public class tc_4 extends BaseClass {
         Thread.sleep(3000);
         page2.addProductToCartbyindex(0);
         Thread.sleep(3000);
-        page2.addProductToCartbyindex(1);
+        page2.addProductToCartbyindex(0);
         page2.clickCartButton();
         Thread.sleep(2000);
 
