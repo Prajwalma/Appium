@@ -71,7 +71,7 @@ public class tc_4 extends BaseClass {
         Assert.assertEquals(actsum, formattedsum);
 
 
-        page3.acceptTermsConditions();
+  //      page3.acceptTermsConditions();
         Thread.sleep(2000);
         page3.submitOrder();
     }
