@@ -43,7 +43,7 @@ public class tc_4 extends BaseClass {
     }
 
 
-    @Test(dataProvider="getData")
+    @Test(dataProvider="getData",groups={"smoke"})
     public void Fillform(String name,String gender, String country) throws InterruptedException {
 
         Formpage page = new Formpage(driver);
