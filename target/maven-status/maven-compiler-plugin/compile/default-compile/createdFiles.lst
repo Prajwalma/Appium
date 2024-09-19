@@ -1,0 +1,9 @@
+org\pageobjects\android\Formpage.class
+org\pageobjects\IOS\AlertViewsPage.class
+Utils\Appiumutils$1.class
+org\pageobjects\IOS\HomePage.class
+Utils\Appiumutils.class
+org\pageobjects\android\Productcataloguepage.class
+Utils\IOSActions.class
+org\pageobjects\android\CartPage.class
+Utils\AndroidActions.class

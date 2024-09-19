@@ -1,0 +1,138 @@
+# Created at 2024-09-18T14:54:21.049
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] '.
+
+# Created at 2024-09-18T14:54:21.055
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[2024-09-18T09:24:21.043084500Z][ TESTHUB ] EXCEPTION IN BUILD START EVENT : com.browserstack.testOps.RequestException: No such host is known (collector-observability.browserstack.com)'.
+
+# Created at 2024-09-18T14:54:21.058
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.063
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.066
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at com.browserstack.testOps.RequestUtils.requestToTestOpsJson(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.070
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at com.browserstack.testOps.RequestUtils.launch(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.074
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at com.browserstack.testOps.Listener.onStart(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.077
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)'.
+
+# Created at 2024-09-18T14:54:21.080
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at java.base/java.lang.reflect.Method.invoke(Method.java:580)'.
+
+# Created at 2024-09-18T14:54:21.083
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.087
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at jdk.proxy2/jdk.proxy2.$Proxy2.onStart(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.091
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.094
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.097
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)'.
+
+# Created at 2024-09-18T14:54:21.101
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at java.base/java.lang.reflect.Method.invoke(Method.java:580)'.
+
+# Created at 2024-09-18T14:54:21.104
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)'.
+
+# Created at 2024-09-18T14:54:21.109
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)'.
+
+# Created at 2024-09-18T14:54:21.113
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Caused by: java.net.UnknownHostException: No such host is known (collector-observability.browserstack.com)'.
+
+# Created at 2024-09-18T14:54:21.116
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)'.
+
+# Created at 2024-09-18T14:54:21.119
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)'.
+
+# Created at 2024-09-18T14:54:21.121
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1221)'.
+
+# Created at 2024-09-18T14:54:21.126
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1816)'.
+
+# Created at 2024-09-18T14:54:21.129
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1149)'.
+
+# Created at 2024-09-18T14:54:21.132
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1806)'.
+
+# Created at 2024-09-18T14:54:21.134
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1676)'.
+
+# Created at 2024-09-18T14:54:21.138
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.Dns.a(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.141
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.connection.RouteSelector.a(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.144
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.connection.RouteSelector.b(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.149
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.connection.ExchangeFinder.a(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.153
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.connection.ExchangeFinder.a(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.156
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.connection.ExchangeFinder.a(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.159
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.connection.Transmitter.a(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.162
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.connection.ConnectInterceptor.intercept(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.166
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.169
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.173
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.cache.CacheInterceptor.intercept(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.176
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.179
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.182
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.http.BridgeInterceptor.intercept(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.186
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.190
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.193
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.196
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.internal.http.RealInterceptorChain.proceed(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:21.198
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.RealCall.getResponseWithInterceptorChain(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:31.795
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at browserstack.shaded.okhttp3.RealCall.execute(Unknown Source)'.
+
+# Created at 2024-09-18T14:54:31.800
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	... 15 more'.
+

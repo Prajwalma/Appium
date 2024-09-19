@@ -1222,3 +1222,441 @@
 16:57:47.164 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
 16:57:50.687 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack build  2) is not same as client side buildName(browserstack build #2)
 16:57:58.969 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle-M Config File does not exist.
+11:18:10.942 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Prajwal\\IdeaProjects\\IdeaProjects\\FrameworkClouddev, localrepository=C\:\\Users\\Prajwal M A\\.m2\\repository}
+11:18:11.260 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+11:18:11.260 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+11:18:11.265 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire-20240919111809171_1tmp
+11:18:11.265 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire-20240919111809171_1tmp
+11:18:11.265 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.23.4
+11:18:11.269 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+11:18:11.269 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+11:18:11.269 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+11:18:11.269 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+11:18:11.997 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+11:18:12.484 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 482ms
+11:18:13.899 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1411ms
+11:18:15.332 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1432ms
+11:18:15.337 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+11:18:15.366 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"ZZNRTbRBYZyeUvgpCmpx","userName":"arithaprojecttea_PUpoGm","event_properties":{"product":"[app-automate, observability]","buildName":"browserstack build","os":"Windows 11","languageVersion":"22.0.2","appiumVersion":"9.2.2","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"21553011-a914-44e4-bf8c-9af6c85a2bf4","buildIdentifier":"#3","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":true,"accessibility":false,"automate":false,"percy":false,"observability":true,"turboscale":false},"referrer":"testng-javaagent\/1.23.4","hostname":"AC-LAP-074","language_framework":"java_testng","detectedFramework":"none","detectedSeleniumVersion":"4.24.0","seleniumVersion":"4.24.0"}}
+11:18:16.155 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+11:18:20.410 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+11:18:20.411 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 1338
+11:18:21.728 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+11:18:21.729 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : fmdfafsyqrefyfregx8g3ykp2zqejaxodfg7l3h1
+11:18:21.729 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+11:18:21.740 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 19_Sep_1118_AC_LAP_074_6YKo
+11:18:32.537 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 1 and number of platforms - 1
+11:18:32.935 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:32.951 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:32.957 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:32.957 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:32.959 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:32.959 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:32.961 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:32.961 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:32.966 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:32.990 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:32.992 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.001 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.002 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.002 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.003 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.007 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.008 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.009 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.009 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.009 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.009 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.010 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.015 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.016 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.018 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.018 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.022 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.023 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.024 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.025 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.030 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.030 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.031 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.031 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.050 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.051 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.052 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.052 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.052 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.052 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.053 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.055 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.056 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.056 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.056 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.075 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-09-19T05:48:33.074443400Z][ OBSERVABILITY ] Processing Logs patching stream
+11:18:33.093 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.121 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:18:33.168 [Configure@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: TestUtils.BaseClass 
+11:18:33.168 [Configure@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, TestClass :: TestUtils\BaseClass
+11:18:33.342 [Configure@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\src\test\java\TestUtils\BaseClass.java, fileSeparator :: \, AbsolutePath :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, File.Separator :: \
+11:18:33.343 [Configure@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: FrameworkClouddev\src\test\java\TestUtils\BaseClass.java, Absolute Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\.., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects 
+11:18:33.348 [Configure@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+11:18:34.955 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1726724914955
+
+11:18:34.959 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 48
+
+11:18:34.961 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 11278
+11:18:35.199 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+11:18:35.200 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-19T05:48:35.200171400Z][ TESTHUB ] Batch event successfull!
+
+11:18:38.958 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4002
+
+11:18:42.952 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3994
+
+11:18:46.951 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+11:18:50.663 [Configure@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+11:18:50.669 [Configure@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 52
+11:18:50.681 [Configure@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+11:18:50.951 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+11:18:52.954 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2003
+
+11:18:56.950 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3996
+
+11:18:58.952 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+11:19:02.943 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3991
+
+11:19:04.955 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2011
+
+11:19:08.954 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+11:19:09.587 [Configure@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+11:19:09.663 [Configure@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:19:09.663 [Configure@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:19:09.663 [Configure@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:19:09.663 [Configure@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:19:12.944 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3989
+
+11:19:14.719 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: org.android.test.tc_4 
+11:19:14.719 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, TestClass :: org\android\test\tc_4
+11:19:14.836 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\src\test\java\org\android\test\tc_4.java, fileSeparator :: \, AbsolutePath :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, File.Separator :: \
+11:19:14.836 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: FrameworkClouddev\src\test\java\org\android\test\tc_4.java, Absolute Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\.., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects 
+11:19:14.872 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:19:14.872 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:19:14.873 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:19:14.873 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:19:14.885 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+11:19:14.957 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2013
+
+11:19:14.957 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+11:19:14.959 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 3119
+11:19:15.179 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+11:19:15.180 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-19T05:49:15.180812900Z][ TESTHUB ] Batch event successfull!
+
+11:19:16.776 [Errormsg@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:19:16.818 [Errormsg@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: TestUtils.BaseClass 
+11:19:16.819 [Errormsg@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, TestClass :: TestUtils\BaseClass
+11:19:16.911 [Errormsg@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\src\test\java\TestUtils\BaseClass.java, fileSeparator :: \, AbsolutePath :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, File.Separator :: \
+11:19:16.912 [Errormsg@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: FrameworkClouddev\src\test\java\TestUtils\BaseClass.java, Absolute Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\.., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects 
+11:19:16.937 [Errormsg@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:19:16.937 [Errormsg@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:19:16.937 [Errormsg@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:19:16.938 [Errormsg@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:19:16.938 [Errormsg@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+11:19:16.939 [Errormsg@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: org.android.test.tc_4 
+11:19:16.939 [Errormsg@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, TestClass :: org\android\test\tc_4
+11:19:17.035 [Errormsg@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\src\test\java\org\android\test\tc_4.java, fileSeparator :: \, AbsolutePath :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, File.Separator :: \
+11:19:17.036 [Errormsg@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: FrameworkClouddev\src\test\java\org\android\test\tc_4.java, Absolute Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\.., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects 
+11:19:17.058 [Errormsg@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:19:17.058 [Errormsg@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:19:17.058 [Errormsg@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:19:17.058 [Errormsg@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:19:17.068 [Errormsg@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+11:19:17.110 [Teardown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: TestUtils.BaseClass 
+11:19:17.110 [Teardown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, TestClass :: TestUtils\BaseClass
+11:19:17.206 [Teardown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\src\test\java\TestUtils\BaseClass.java, fileSeparator :: \, AbsolutePath :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, File.Separator :: \
+11:19:17.207 [Teardown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: FrameworkClouddev\src\test\java\TestUtils\BaseClass.java, Absolute Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\.., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects 
+11:19:17.229 [Teardown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:19:17.229 [Teardown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:19:17.229 [Teardown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:19:17.230 [Teardown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:19:17.230 [Teardown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+11:19:17.230 [Teardown@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+11:19:18.945 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3988
+
+11:19:18.946 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 4
+
+11:19:18.948 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 9577
+11:19:19.174 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+11:19:19.175 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-19T05:49:19.175180700Z][ TESTHUB ] Batch event successfull!
+
+11:19:19.364 [Teardown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: TestUtils.BaseClass 
+11:19:19.364 [Teardown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, TestClass :: TestUtils\BaseClass
+11:19:19.460 [Teardown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\src\test\java\TestUtils\BaseClass.java, fileSeparator :: \, AbsolutePath :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, File.Separator :: \
+11:19:19.461 [Teardown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: FrameworkClouddev\src\test\java\TestUtils\BaseClass.java, Absolute Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\.., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects 
+11:19:19.461 [Teardown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+11:19:20.187 [Teardown@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+11:19:20.191 [Teardown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:19:20.196 [Teardown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:19:20.870 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:19:20.871 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:19:20.885 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:19:20.899 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:19:20.911 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:19:20.912 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:19:20.956 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2011
+
+11:19:20.956 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 9
+
+11:19:20.957 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 2891
+11:19:21.005 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+11:19:21.006 [Thread-0] DEBUG com.browserstack.testOps.Listener - Waiting to upload pending uploads
+11:19:21.111 [Thread-0] DEBUG com.browserstack.testOps.Listener - Waiting to upload pending uploads
+11:19:21.176 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+11:19:21.177 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-19T05:49:21.177652600Z][ TESTHUB ] Batch event successfull!
+
+11:19:21.220 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+11:19:21.220 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-09-19T05:49:21.220795400Z][ OBSERVABILITY ] Processing stop observability
+11:19:21.221 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+11:19:21.221 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/fmdfafsyqrefyfregx8g3ykp2zqejaxodfg7l3h1/stop with request size 65
+11:19:21.444 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+11:19:21.444 [Thread-0] DEBUG com.browserstack.testOps.Listener - Testhub stop response: 
+11:19:26.155 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Unable to parse data from processes. Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.getFormattedDataFromProcesses(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+11:19:26.155 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+11:19:26.155 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+11:19:26.164 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+11:19:26.248 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"ZZNRTbRBYZyeUvgpCmpx","userName":"arithaprojecttea_PUpoGm","event_properties":{"product":"[app-automate, observability]","buildName":"browserstack build","os":"Windows 11","languageVersion":"22.0.2","appiumVersion":"9.2.2","frameworkDetectionInstrumentation":{"ret-org.openqa.selenium.remote.RemoteWebDriver":749,"retransformClasses":749},"language":"java","sdkRunId":"21553011-a914-44e4-bf8c-9af6c85a2bf4","buildIdentifier":"#3","userFramework":"testng","testhub_uuid":"fmdfafsyqrefyfregx8g3ykp2zqejaxodfg7l3h1","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":true,"accessibility":false,"automate":false,"percy":false,"observability":true,"turboscale":false},"referrer":"testng-javaagent\/1.23.4","hostname":"AC-LAP-074","measures":{"local:start":9112,"sdk:setup":20149,"local:stop":4705},"language_framework":"java_testng","detectedFramework":"none","productUsage":{"testObservability":{"buildHashedId":"fmdfafsyqrefyfregx8g3ykp2zqejaxodfg7l3h1","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"sentCount":2,"triggeredCount":2,"failedCount":0},"finished":{"triggeredCount":2,"failedCount":0,"errors":[],"sentCount":2},"passed":{"errors":[],"sentCount":2,"triggeredCount":2,"failedCount":0}},"logEvents":{"errors":[],"sentCount":56,"triggeredCount":56,"failedCount":0,"log":{"errors":[],"sentCount":56,"triggeredCount":56,"failedCount":0}},"testEvents":{"started":{"errors":[],"sentCount":1,"triggeredCount":1,"failedCount":0},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":1},"passed":{"errors":[],"sentCount":1,"triggeredCount":1,"failedCount":0}},"batchEvents":{"triggeredCount":4,"failedCount":0,"errors":[],"sentCount":4},"cbtSessionEvents":{"errors":[],"sentCount":0,"triggeredCount":0,"failedCount":0},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":"success","triggered":true}}}}},"testOrchestration":{"abortBuildOnFailure":{"userConfig":{},"enabled":false},"retryTestsOnFailure":{"userConfig":{},"enabled":false}},"detectedSeleniumVersion":"4.24.0","browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"19_Sep_1118_AC_LAP_074_6YKo","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionStatus":false,"skipSessionName":false,"serenityOverridePlugin":false},"platforms":[{"browserVersion":null,"osVersion":null,"capabilities":{"platformVersion":12.0,"platformName":"android","deviceName":"Samsung Galaxy S22 Ultra"},"device":"Samsung Galaxy S22 Ultra","browser":null,"os":null,"platformCaps":{"platformVersion":12.0,"platformName":"android","deviceName":"Samsung Galaxy S22 Ultra"},"platformString":"Samsung Galaxy S22 Ultra, 12.0","customVariables":"****"}],"parallelsPerPlatform":1,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"seleniumVersion":"4.24.0"}}
+11:19:26.810 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+11:19:29.520 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack build  3) is not same as client side buildName(browserstack build #3)
+11:19:30.005 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle-M Config File does not exist.
+11:22:21.074 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Prajwal\\IdeaProjects\\IdeaProjects\\FrameworkClouddev, localrepository=C\:\\Users\\Prajwal M A\\.m2\\repository}
+11:22:21.599 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+11:22:21.599 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+11:22:21.605 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : surefire-20240919112219270_1tmp
+11:22:21.605 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Coudln't find config path surefire-20240919112219270_1tmp
+11:22:21.605 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.23.4
+11:22:21.610 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+11:22:21.611 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+11:22:21.611 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+11:22:21.611 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+11:22:22.054 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+11:22:22.283 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 226ms
+11:22:23.346 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1058ms
+11:22:24.577 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1229ms
+11:22:24.581 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+11:22:24.598 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"ZZNRTbRBYZyeUvgpCmpx","userName":"arithaprojecttea_PUpoGm","event_properties":{"product":"[app-automate, observability]","buildName":"browserstack build","os":"Windows 11","languageVersion":"22.0.2","appiumVersion":"9.2.2","frameworkDetectionInstrumentation":{},"language":"java","sdkRunId":"c00b3b7f-a4c2-4f31-a1a7-7ed31fd59790","buildIdentifier":"#4","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":true,"accessibility":false,"automate":false,"percy":false,"observability":true,"turboscale":false},"referrer":"testng-javaagent\/1.23.4","hostname":"AC-LAP-074","language_framework":"java_testng","detectedFramework":"none","detectedSeleniumVersion":"4.24.0","seleniumVersion":"4.24.0"}}
+11:22:25.091 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+11:22:26.030 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+11:22:26.030 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 1338
+11:22:26.972 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+11:22:26.973 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : oefwz9ex49ziesd6fgjkyzydl2e8hcoekbquusfn
+11:22:26.973 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+11:22:26.976 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 19_Sep_1122_AC_LAP_074_pUg7
+11:22:36.445 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 1 and number of platforms - 1
+11:22:36.969 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:36.985 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:36.990 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:36.991 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:36.993 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:36.993 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:36.994 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:36.995 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.001 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.018 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.020 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.031 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.032 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.033 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.033 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.037 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.038 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.038 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.039 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.039 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.039 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.040 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.042 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.043 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.044 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.045 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.051 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.052 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.053 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.054 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.060 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.060 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.061 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.061 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.086 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.087 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.087 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.088 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.088 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.089 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.089 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.093 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.094 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.096 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.096 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.119 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-09-19T05:52:37.119483500Z][ OBSERVABILITY ] Processing Logs patching stream
+11:22:37.135 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.166 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:22:37.221 [Configure@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: TestUtils.BaseClass 
+11:22:37.221 [Configure@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, TestClass :: TestUtils\BaseClass
+11:22:37.351 [Configure@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\src\test\java\TestUtils\BaseClass.java, fileSeparator :: \, AbsolutePath :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, File.Separator :: \
+11:22:37.352 [Configure@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: FrameworkClouddev\src\test\java\TestUtils\BaseClass.java, Absolute Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\.., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects 
+11:22:37.355 [Configure@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+11:22:38.985 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1726725158985
+
+11:22:38.991 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 48
+
+11:22:38.994 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 11276
+11:22:39.288 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+11:22:39.288 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-19T05:52:39.288451700Z][ TESTHUB ] Batch event successfull!
+
+11:22:42.988 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4001
+
+11:22:46.988 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+11:22:50.473 [Configure@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+11:22:50.482 [Configure@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 52
+11:22:50.494 [Configure@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+11:22:50.978 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3990
+
+11:22:52.990 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2012
+
+11:22:56.983 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3993
+
+11:23:00.981 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3998
+
+11:23:04.982 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+11:23:08.989 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4007
+
+11:23:12.987 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3998
+
+11:23:16.985 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3998
+
+11:23:17.495 [Configure@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+11:23:17.573 [Configure@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:23:17.574 [Configure@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:23:17.574 [Configure@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:23:17.574 [Configure@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:23:18.987 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+11:23:22.640 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: org.android.test.tc_4 
+11:23:22.640 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, TestClass :: org\android\test\tc_4
+11:23:22.743 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\src\test\java\org\android\test\tc_4.java, fileSeparator :: \, AbsolutePath :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, File.Separator :: \
+11:23:22.744 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: FrameworkClouddev\src\test\java\org\android\test\tc_4.java, Absolute Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\.., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects 
+11:23:22.784 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:23:22.784 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:23:22.784 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:23:22.785 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:23:22.797 [/Users/prajwal/IdeaProjects/Framework-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+11:23:22.981 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3994
+
+11:23:22.982 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+11:23:22.983 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 3119
+11:23:23.250 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+11:23:23.250 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-19T05:53:23.250270700Z][ TESTHUB ] Batch event successfull!
+
+11:23:24.984 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2003
+
+11:23:26.436 [Errormsg@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:23:26.481 [Errormsg@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: TestUtils.BaseClass 
+11:23:26.481 [Errormsg@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, TestClass :: TestUtils\BaseClass
+11:23:26.580 [Errormsg@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\src\test\java\TestUtils\BaseClass.java, fileSeparator :: \, AbsolutePath :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, File.Separator :: \
+11:23:26.581 [Errormsg@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: FrameworkClouddev\src\test\java\TestUtils\BaseClass.java, Absolute Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\.., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects 
+11:23:26.609 [Errormsg@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:23:26.610 [Errormsg@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:23:26.610 [Errormsg@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:23:26.610 [Errormsg@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:23:26.611 [Errormsg@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+11:23:26.611 [Errormsg@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: org.android.test.tc_4 
+11:23:26.611 [Errormsg@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, TestClass :: org\android\test\tc_4
+11:23:26.708 [Errormsg@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\src\test\java\org\android\test\tc_4.java, fileSeparator :: \, AbsolutePath :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, File.Separator :: \
+11:23:26.709 [Errormsg@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: FrameworkClouddev\src\test\java\org\android\test\tc_4.java, Absolute Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\.., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects 
+11:23:26.733 [Errormsg@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:23:26.734 [Errormsg@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:23:26.734 [Errormsg@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:23:26.734 [Errormsg@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:23:26.743 [Errormsg@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+11:23:26.784 [Teardown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: TestUtils.BaseClass 
+11:23:26.785 [Teardown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, TestClass :: TestUtils\BaseClass
+11:23:26.879 [Teardown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\src\test\java\TestUtils\BaseClass.java, fileSeparator :: \, AbsolutePath :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, File.Separator :: \
+11:23:26.879 [Teardown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: FrameworkClouddev\src\test\java\TestUtils\BaseClass.java, Absolute Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\.., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects 
+11:23:26.897 [Teardown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:23:26.897 [Teardown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:23:26.898 [Teardown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+11:23:26.898 [Teardown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+11:23:26.898 [Teardown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+11:23:26.898 [Teardown@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+11:23:28.987 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4003
+
+11:23:28.988 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 4
+
+11:23:28.991 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 9577
+11:23:29.076 [Teardown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: TestUtils.BaseClass 
+11:23:29.076 [Teardown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, TestClass :: TestUtils\BaseClass
+11:23:29.174 [Teardown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\src\test\java\TestUtils\BaseClass.java, fileSeparator :: \, AbsolutePath :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev, File.Separator :: \
+11:23:29.175 [Teardown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: FrameworkClouddev\src\test\java\TestUtils\BaseClass.java, Absolute Path :: C:\Prajwal\IdeaProjects\IdeaProjects\FrameworkClouddev\.., Normalized Path :: C:\Prajwal\IdeaProjects\IdeaProjects 
+11:23:29.175 [Teardown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+11:23:29.292 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+11:23:29.293 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-19T05:53:29.293408Z][ TESTHUB ] Batch event successfull!
+
+11:23:29.922 [Teardown@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+11:23:29.925 [Teardown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:23:29.927 [Teardown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:23:30.173 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:23:30.175 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:23:30.192 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:23:30.207 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:23:30.218 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:23:30.219 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+11:23:30.332 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+11:23:30.333 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+11:23:30.333 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-09-19T05:53:30.333196Z][ OBSERVABILITY ] Processing stop observability
+11:23:30.334 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 9
+
+11:23:30.335 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 2890
+11:23:30.624 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+11:23:30.625 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-19T05:53:30.625440600Z][ TESTHUB ] Batch event successfull!
+
+11:23:30.625 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+11:23:30.626 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/oefwz9ex49ziesd6fgjkyzydl2e8hcoekbquusfn/stop with request size 65
+11:23:30.896 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+11:23:30.897 [Thread-0] DEBUG com.browserstack.testOps.Listener - Testhub stop response: 
+11:23:34.277 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Unable to parse data from processes. Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.getFormattedDataFromProcesses(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+11:23:34.278 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+11:23:34.278 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+11:23:34.291 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+11:23:34.409 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"ZZNRTbRBYZyeUvgpCmpx","userName":"arithaprojecttea_PUpoGm","event_properties":{"product":"[app-automate, observability]","buildName":"browserstack build","os":"Windows 11","languageVersion":"22.0.2","appiumVersion":"9.2.2","frameworkDetectionInstrumentation":{"ret-org.openqa.selenium.remote.RemoteWebDriver":819,"retransformClasses":819},"language":"java","sdkRunId":"c00b3b7f-a4c2-4f31-a1a7-7ed31fd59790","buildIdentifier":"#4","userFramework":"testng","testhub_uuid":"oefwz9ex49ziesd6fgjkyzydl2e8hcoekbquusfn","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":true,"accessibility":false,"automate":false,"percy":false,"observability":true,"turboscale":false},"referrer":"testng-javaagent\/1.23.4","hostname":"AC-LAP-074","measures":{"local:start":7797,"sdk:setup":13938,"local:stop":3372},"language_framework":"java_testng","detectedFramework":"none","productUsage":{"testObservability":{"buildHashedId":"oefwz9ex49ziesd6fgjkyzydl2e8hcoekbquusfn","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"triggeredCount":2,"sentCount":2,"failedCount":0},"finished":{"triggeredCount":2,"failedCount":0,"errors":[],"sentCount":2},"passed":{"errors":[],"triggeredCount":2,"sentCount":2,"failedCount":0}},"logEvents":{"errors":[],"triggeredCount":56,"sentCount":56,"failedCount":0,"log":{"errors":[],"triggeredCount":56,"sentCount":56,"failedCount":0}},"testEvents":{"started":{"errors":[],"triggeredCount":1,"sentCount":1,"failedCount":0},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":1},"passed":{"errors":[],"triggeredCount":1,"sentCount":1,"failedCount":0}},"batchEvents":{"triggeredCount":4,"failedCount":0,"errors":[],"sentCount":4},"cbtSessionEvents":{"errors":[],"triggeredCount":0,"sentCount":0,"failedCount":0},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":"success","triggered":true}}}}},"testOrchestration":{"abortBuildOnFailure":{"userConfig":{},"enabled":false},"retryTestsOnFailure":{"userConfig":{},"enabled":false}},"detectedSeleniumVersion":"4.24.0","browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"19_Sep_1122_AC_LAP_074_pUg7","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionStatus":false,"serenityOverridePlugin":false,"skipSessionName":false},"platforms":[{"capabilities":{"platformVersion":12.0,"platformName":"android","deviceName":"Samsung Galaxy S22 Ultra"},"osVersion":null,"browserVersion":null,"device":"Samsung Galaxy S22 Ultra","os":null,"browser":null,"platformCaps":{"platformVersion":12.0,"platformName":"android","deviceName":"Samsung Galaxy S22 Ultra"},"platformString":"Samsung Galaxy S22 Ultra, 12.0","customVariables":"****"}],"parallelsPerPlatform":1,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"seleniumVersion":"4.24.0"}}
+11:23:34.926 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+11:23:37.180 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack build  4) is not same as client side buildName(browserstack build #4)
+11:23:37.728 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle-M Config File does not exist.
