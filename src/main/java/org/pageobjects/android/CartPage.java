@@ -1,12 +1,16 @@
 package org.pageobjects.android;
 
 import Utils.AndroidActions;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
+import java.time.Duration;
 import java.util.List;
 
 public class CartPage extends AndroidActions {
@@ -71,6 +75,13 @@ public class CartPage extends AndroidActions {
     public void acceptTermsConditions()
     {
         longpress(terms);
+//        PointOption point = PointOption.point(terms.getLocation().getX(), terms.getLocation().getY());
+//        TouchAction action = new TouchAction(driver);
+//// Perform long press
+//        action.press(point)
+//                .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(2))) // Adjust duration as needed
+//                .release()
+//                .perform();
         acceptButton.click();
     }
 
