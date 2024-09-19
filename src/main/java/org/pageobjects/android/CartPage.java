@@ -74,14 +74,14 @@ public class CartPage extends AndroidActions {
 
     public void acceptTermsConditions()
     {
-        longpress(terms);
-//        PointOption point = PointOption.point(terms.getLocation().getX(), terms.getLocation().getY());
-//        TouchAction action = new TouchAction(driver);
-//// Perform long press
-//        action.press(point)
-//                .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(2))) // Adjust duration as needed
-//                .release()
-//                .perform();
+     //   longpress(terms);
+        PointOption point = PointOption.point(terms.getLocation().getX(), terms.getLocation().getY());
+        TouchAction action = new TouchAction(driver);
+// Perform long press
+        action.press(point)
+                .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(2))) // Adjust duration as needed
+                .release()
+                .perform();
         acceptButton.click();
     }
 
