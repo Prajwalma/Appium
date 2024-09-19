@@ -4,6 +4,7 @@ import TestUtils.BaseClass;
 import com.google.common.collect.ImmutableMap;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.ScreenOrientation;
 import org.pageobjects.android.CartPage;
 import org.pageobjects.android.Formpage;
 import org.pageobjects.android.Productcataloguepage;
@@ -53,9 +54,11 @@ public class tc_4 extends BaseClass {
         page.ClickShopButton();
         Productcataloguepage page2 = new Productcataloguepage(driver);
         Thread.sleep(3000);
-        page2.addProductToCartbyindex(0);
+        driver.rotate(ScreenOrientation.PORTRAIT);
         Thread.sleep(3000);
         page2.addProductToCartbyindex(0);
+        Thread.sleep(3000);
+        page2.addProductToCartbyindex(1);
         page2.clickCartButton();
         Thread.sleep(2000);
 
