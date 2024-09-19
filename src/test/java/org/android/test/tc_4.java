@@ -57,10 +57,10 @@ public class tc_4 extends BaseClass {
         Thread.sleep(3000);
 //        driver.rotate(ScreenOrientation.PORTRAIT);
 //        Thread.sleep(3000);
-//        page2.addProductToCartbyindex(0);
-//        Thread.sleep(3000);
+       page2.addProductToCartbyindex(0);
+        Thread.sleep(3000);
 //        page2.addProductToCartbyindex(1);
-//        page2.clickCartButton();
+        page2.clickCartButton();
         Thread.sleep(2000);
 
         CartPage page3 = new CartPage(driver);
