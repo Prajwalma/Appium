@@ -55,8 +55,8 @@ public class tc_4 extends BaseClass {
         page.ClickShopButton();
         Productcataloguepage page2 = new Productcataloguepage(driver);
         Thread.sleep(3000);
-//        driver.rotate(ScreenOrientation.PORTRAIT);
-//        Thread.sleep(3000);
+      driver.rotate(ScreenOrientation.PORTRAIT);
+        Thread.sleep(3000);
        page2.addProductToCartbyindex(0);
         Thread.sleep(3000);
 //        page2.addProductToCartbyindex(1);
