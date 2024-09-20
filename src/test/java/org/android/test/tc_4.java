@@ -34,7 +34,7 @@ public class tc_4 extends BaseClass {
 
 
 
-    @Test
+    @Test(groups={"smoke"})
     public void Errormsg()
     {
         driver.findElement(By.xpath("//android.widget.RadioButton[@text='Female']")).click();
