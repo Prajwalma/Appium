@@ -32,7 +32,7 @@ public class IosBaseTest  extends Appiumutils {
         String ipAddress= prop.getProperty("ipAddress");
         String port= prop.getProperty("port");
 
-        service = startappium(ipAddress,Integer.parseInt(port));
+      //  service = startappium(ipAddress,Integer.parseInt(port));
 
         XCUITestOptions options = new XCUITestOptions();
         options.setApp("/Users/prajwal/Library/Developer/Xcode/DerivedData/UIKitCatalog-hcllbthxzqcwrbcskzhltfvvfgof/Build/Products/Debug-iphonesimulator/UIKitCatalog.app");
@@ -50,6 +50,6 @@ public class IosBaseTest  extends Appiumutils {
     public void Teardown()
     {
         driver.quit();
-        service.stop();
+    //    service.stop();
     }
 }
