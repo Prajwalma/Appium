@@ -24,13 +24,13 @@ public class BaseClass extends Appiumutils
     public void Configure() throws IOException, InterruptedException {
         Properties prop = new Properties();
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/resources/data.properties");
-   //     String ipAddress= System.getProperty("ipAddress")!= null ? System.getProperty("ipAddress") : prop.getProperty("ipAddress");
+        String ipAddress= System.getProperty("ipAddress")!= null ? System.getProperty("ipAddress") : prop.getProperty("ipAddress");
         prop.load(fis);
 
 
        String port= prop.getProperty("port");
 
-      //   service = startappium(ipAddress,Integer.parseInt(port));
+        service = startappium(ipAddress,Integer.parseInt(port));
 
 
         UiAutomator2Options options = new UiAutomator2Options();
@@ -49,7 +49,7 @@ public class BaseClass extends Appiumutils
     public void Teardown()
     {
         driver.quit();
-      // service.stop();
+       service.stop();
     }
 
 }
