@@ -28,13 +28,13 @@ public class Appiumutils {
 //        this.driver = driver;
 //    }
 
-    public AppiumDriverLocalService startappium(String ipAddress,int port){
-        service = new AppiumServiceBuilder().withAppiumJS(new File("/home/ubuntu/.nvm/versions/node/v20.17.0/lib/node_modules/appium/build/lib/main.js"))
-            .withIPAddress(ipAddress).usingPort(port).build();
-        service.start();
-        return service;
-
-    }
+//    public AppiumDriverLocalService startappium(String ipAddress,int port){
+//        service = new AppiumServiceBuilder().withAppiumJS(new File("/home/ubuntu/.nvm/versions/node/v20.17.0/lib/node_modules/appium/build/lib/main.js"))
+//            .withIPAddress(ipAddress).usingPort(port).build();
+//        service.start();
+//        return service;
+//
+//    }
 
 
     public static List<HashMap<String, String>> getJsonData(String jsonFilePath) throws IOException {
