@@ -10,9 +10,9 @@ public class ExtentReportsNG {
 
     public static ExtentReports getreportr()
     {
-        Properties prop = new Properties();
-       // String path = System.getProperty("user.dir")+"//reports//report.html";;
-        String path = prop.getProperty("serverreportpath");
+      //  Properties prop = new Properties();
+        String path = System.getProperty("user.dir")+"//reports/report.html";;
+      //  String path = prop.getProperty("serverreportpath");
         ExtentSparkReporter reporter = new ExtentSparkReporter(path);
         reporter.config().setReportName("Appium Automation Report");
         reporter.config().setDocumentTitle("Appium Automation Results");
