@@ -97,7 +97,7 @@ public class Appiumutils {
         FileUtils.copyFile(source, new File(destination));
 
         // Construct the full URL for the image
-        return baseURL + "/job/Appium/ws/reports/screenshots/" + testCaseName + ".png";
+        return baseURL + "/job/Appium/ws/reports/screenshots" + testCaseName + ".png";
     }
 
 
