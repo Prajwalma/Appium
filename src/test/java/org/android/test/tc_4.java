@@ -40,7 +40,7 @@ public class tc_4 extends BaseClass {
         driver.findElement(By.xpath("//android.widget.RadioButton[@text='Female']")).click();
         driver.findElement(By.id("com.androidsample.generalstore:id/btnLetsShop")).click();
         String msg=driver.findElement(By.xpath("//android.widget.Toast[1]")).getAttribute("name");
-        Assert.assertEquals(msg,"Please enter your name");
+        Assert.assertEquals(msg,"Please enter your nam");
 
     }
 
