@@ -75,7 +75,7 @@ public class Appiumutils {
         File source = driver.getScreenshotAs(OutputType.FILE);
 
         // Absolute path to save the screenshot
-        String destination = System.getProperty("user.dir") + "/reports/screenshots/" + testCaseName + ".png";
+        String destination = System.getProperty("user.dir") + "/reports/screenshots" + testCaseName + ".png";
         FileUtils.copyFile(source, new File(destination));
 
         // Return the relative path for the report
