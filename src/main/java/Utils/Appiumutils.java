@@ -79,7 +79,12 @@ public class Appiumutils {
         FileUtils.copyFile(source, new File(destination));
 
         // Return the relative path for the report
-        return destination;  // Relative path used in the report
+        //return destination;  // Relative path used in the report
+        // Jenkins workspace URL format
+        String jenkinsBaseUrl = "http://52.90.148.33:8080/job/Appium/ws/";
+
+        // Return the Jenkins URL for the screenshot (replace System.getProperty with Jenkins workspace URL)
+        return jenkinsBaseUrl + "reports/screenshots/" + testCaseName + ".png";
     }
 
 
