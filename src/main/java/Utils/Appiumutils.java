@@ -12,11 +12,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Properties;
 
 public class Appiumutils {
     AppiumDriverLocalService service;
@@ -75,16 +77,27 @@ public class Appiumutils {
         File source = driver.getScreenshotAs(OutputType.FILE);
 
         // Absolute path to save the screenshot
-        String destination = System.getProperty("user.dir") + "/reports/screenshots" + testCaseName + ".png";
-        FileUtils.copyFile(source, new File(destination));
+      //  String destination = System.getProperty("user.dir") + "//reports//screenshots" + testCaseName + ".png";
+      //  FileUtils.copyFile(source, new File(destination));
 
         // Return the relative path for the report
         //return destination;  // Relative path used in the report
         // Jenkins workspace URL format
-        String jenkinsBaseUrl = "http://52.90.148.33:8080/job/Appium/ws/";
+//        String jenkinsBaseUrl = "http://52.90.148.33:8080/job/Appium/ws/";
+//
+//        // Return the Jenkins URL for the screenshot (replace System.getProperty with Jenkins workspace URL)
+//        return jenkinsBaseUrl + "reports/screenshots" + testCaseName + ".png";
+        Properties prop = new Properties();
+        FileInputStream fis = new FileInputStream("src/main/resources/data.properties");
+        prop.load(fis);
+        String baseURL = prop.getProperty("jenkins_base_url"); // e.g., "http://52.90.148.33:8080"
 
-        // Return the Jenkins URL for the screenshot (replace System.getProperty with Jenkins workspace URL)
-        return jenkinsBaseUrl + "reports/screenshots" + testCaseName + ".png";
+        // Absolute path to save the screenshot
+        String destination = System.getProperty("user.dir") + "/reports/screenshots" + testCaseName + ".png";
+        FileUtils.copyFile(source, new File(destination));
+
+        // Construct the full URL for the image
+        return baseURL + "/job/Appium/ws/reports/screenshots/" + testCaseName + ".png";
     }
 
 
