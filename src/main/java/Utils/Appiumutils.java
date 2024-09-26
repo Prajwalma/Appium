@@ -84,7 +84,7 @@ public class Appiumutils {
         String jenkinsBaseUrl = "http://52.90.148.33:8080/job/Appium/ws/";
 
         // Return the Jenkins URL for the screenshot (replace System.getProperty with Jenkins workspace URL)
-        return jenkinsBaseUrl + "reports/screenshots/" + testCaseName + ".png";
+        return jenkinsBaseUrl + "reports/screenshots" + testCaseName + ".png";
     }
 
 
